@@ -16,7 +16,7 @@ n5 =120
 
 NoCuerpos = 120
 
-G=6.6725e-8
+G=4.3025e-3 #En parsecs, masas solares y km/s
 M=10e12
 
 radios = range(NoCuerpos)
