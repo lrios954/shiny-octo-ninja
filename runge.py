@@ -11,8 +11,8 @@ theta = data2[:]
 data3 = numpy.loadtxt(open('velocidades.txt', 'r'))
 v = data3[:]
 
-tMax = 20000 #Para diferenciales de tiempo de 100 mil anios
-h = 1 #Diferencial de tiempo
+tMax = 2000000000 #Para diferenciales de tiempo de 100 mil anios
+h = 100000 #Diferencial de tiempo
    
 x = range(tMax)
 y = range(tMax)
